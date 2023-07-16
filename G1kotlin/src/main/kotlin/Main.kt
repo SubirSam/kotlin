@@ -33,4 +33,11 @@ fun main(){
         println(numers[i])
     }
 
+    // substring
+    // 2nd parameter of substring is always excluded
+    var name = "india"
+    println(name.substring(0))
+    println(name.substring(0,4))
+
+
 }
