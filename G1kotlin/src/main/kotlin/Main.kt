@@ -4,7 +4,7 @@ fun main(){
     // semicolon is optional
     // can print value within string using $
     // type can be inferred
-    var age:Int=29;
+    var age:Int=66;
     val pan:String="abcgdgghd11";
     println("hello sir, welcome to the world of India Kotlin");
     println("$age and $pan");
@@ -19,5 +19,10 @@ fun main(){
     println(country[6])
     country.set(6,"Japan")
     println(country[6])
+    if (age<44){
+        println("yet to be middle aged!!!!")
+    }else if(age>60){
+        print("Enjoy new childhood :)))")
+    }
 
 }
