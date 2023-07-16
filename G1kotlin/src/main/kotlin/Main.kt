@@ -24,7 +24,7 @@ fun main(){
     }else if(age>60){
         println("Enjoy new childhood :)))")
     }
-    var numers= mutableListOf<Int>(22,4,65,7,78,89,9)
+    var numers= listOf<Int>(22,4,65,7,78,89,9)
     println(numers.size)
     // usage of .. and until in for loop
     // size of list
